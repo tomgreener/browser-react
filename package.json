@@ -1,0 +1,27 @@
+{
+  "name": "browser-react",
+  "version": "1.0.0",
+  "description": "An up-to-date example implementation of React for the browser",
+  "scripts": {
+    "run": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomgreener/browser-react.git"
+  },
+  "keywords": [
+    "React",
+    "browser"
+  ],
+  "author": "Tom Greener",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomgreener/browser-react/issues"
+  },
+  "homepage": "https://github.com/tomgreener/browser-react#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1"
+  }
+}
