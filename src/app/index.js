@@ -4,11 +4,10 @@ import { Link, Route, Switch } from "react-router-dom";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
 
-export default () => {
+export default () => (
   <div>
     <nav>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
+        <Link to="/">Home</Link> | <Link to="/about">About</Link>
     </nav>
     <main>
       <Switch>
@@ -17,4 +16,4 @@ export default () => {
       </Switch>
     </main>
   </div>
-};
+);
