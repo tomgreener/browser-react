@@ -1,4 +1,4 @@
-# browser-react
+# browser-react :earth_americas:
 An up-to-date example implementation of React for the browser. Use for building applications or as a reference implementation.
 
 ![Dependencies up to date](https://david-dm.org/tomgreener/browser-react.svg)
@@ -23,7 +23,7 @@ Builds and minifies your application, ready for deployment to a production serve
 `yarn build`
 
 ## What's included?
-This project the keys thing you'll likely need to get started on a new client-side React project:
+This project contains the keys things you'll likely need to get started on a new client-side React project:
 
 - [React Router](https://github.com/ReactTraining/react-router)
 - [React Redux](https://github.com/reduxjs/react-redux)
@@ -49,11 +49,11 @@ Optimisation of the `main.css` file, which contains the application's compiled S
 ## Anything else to come?
 Some things I may add in future are:
 
-- Seperate `vendor.js` script for production, containing `react`, `react-dom` and `react-router` packages
+- [Seperate `vendor.js` script for production](https://www.codementor.io/drewpowers/high-performance-webpack-config-for-front-end-delivery-90sqic1qa#5-commonschunkplugin-for-vendor-caching), containing `react`, `react-dom` and `react-router` packages
 - Filename hashing, to allow more effective script caching in production
 
 ##### Preact
-If you don't need the more advanced features of React, I recommend switching it with [Preact](https://preactjs.com/guide/switching-to-preact). This is very quick to do and can greatly reduce the size of the `client.js` script sent to the user.
+If you don't need the more advanced features of React, I recommend [switching it with Preact](https://preactjs.com/guide/switching-to-preact). This is very quick to do and can greatly reduce the size of the `client.js` script sent to the user.
 
 ## License
 MIT
