@@ -3,9 +3,6 @@ const MiniCssExtractWebpackPlugin = require("mini-css-extract-plugin");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const smartMerge = require("webpack-merge");
 
-module.exports = (env = {}) =>
-  env.production ? smartMerge(common, production) : smartMerge(common, development);
-
 const common = {
   entry: "./src",
   output: {
@@ -26,6 +23,11 @@ const common = {
 };
 
 const development = {
+  devServer: {
+    historyApiFallback: true,
+    port: 3000
+  },
+  devtool: "inline-source-map",
   mode: "development",
   module: {
     rules: [
@@ -57,4 +59,7 @@ const prod = {
   plugins: [
     new MiniCssExtractWebpackPlugin({})
   ]
-}
+};
+
+module.exports = (env = {}) =>
+  env.production ? smartMerge(common, production) : smartMerge(common, development);
