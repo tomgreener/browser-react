@@ -18,7 +18,7 @@ Builds and minifies your application, ready for deployment to a production serve
 `yarn build`
 
 ## What's included?
-This project has everything you might need to get started on a new client-side React application:
+This project the keys thing you'll likely need to get started on a new client-side React project:
 
 - [React Router](https://github.com/ReactTraining/react-router)
 - [React Redux](https://github.com/reduxjs/react-redux)
@@ -40,3 +40,9 @@ Optimisation of the `main.css` file, which contains the application's compiled S
 - `css-mqpacker` - combines same media query rules into one (for neatness)
 - `postcss-combine-duplicated-selectors` - combines duplicated selectors into one
 - `cssnano` - minifies
+
+## Anything else to come?
+Some things I may add in future are:
+
+- Seperate `vendor.js` script containing `react`, `react-dom` and `react-router` packages
+- Add Webpack name hashing to allow caching of scripts
