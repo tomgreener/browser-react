@@ -52,5 +52,8 @@ Some things I may add in future are:
 - Seperate `vendor.js` script for production, containing `react`, `react-dom` and `react-router` packages
 - Filename hashing, to allow more effective script caching in production
 
+##### Preact
+If you don't need the more advanced features of React, I recommend switching it with [Preact](https://preactjs.com/guide/switching-to-preact). This is very quick to do and can greatly reduce the size of the `client.js` script sent to the user.
+
 ## License
 MIT
