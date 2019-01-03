@@ -44,5 +44,8 @@ Optimisation of the `main.css` file, which contains the application's compiled S
 ## Anything else to come?
 Some things I may add in future are:
 
-- Seperate `vendor.js` script containing `react`, `react-dom` and `react-router` packages
-- Add Webpack name hashing to allow caching of scripts
+- Seperate `vendor.js` script for production, containing `react`, `react-dom` and `react-router` packages
+- Filename hashing, to allow more effective script caching in production
+
+## License
+MIT
