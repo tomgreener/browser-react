@@ -33,7 +33,7 @@ As well as some useful extras:
 
 - Hot reloading server for development
 - JS and CSS optimisation for production (more info below)
-- Babel and Webpack transpiling (is this optimised for browser though? possibly not)
+- Babel and Webpack transpiling
 - [Airbnb](https://github.com/airbnb/javascript/blob/master/.editorconfig) `.editorconfig`
 
 ### Tell me more about that optimisation
@@ -44,7 +44,7 @@ Optimisation of the `main.css` file, which contains the application's compiled S
 - `autoprefixer` - adds necessary vendor prefixes
 - `css-mqpacker` - combines same media query rules into one (for neatness)
 - `postcss-combine-duplicated-selectors` - combines duplicated selectors into one
-- `cssnano` - minifies
+- `cssnano` - minification
 
 ## Anything else to come?
 Some things I may add in future are:
