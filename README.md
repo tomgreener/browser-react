@@ -1,6 +1,8 @@
 # browser-react :earth_americas:
 An up-to-date example implementation of React for the browser. Use for building applications or as a reference implementation.
 
+_Need SSR of your React application?_ Check out [isomorphic-react](https://github.com/tomgreener/isomorphic-react).
+
 ![Dependencies up to date](https://david-dm.org/tomgreener/browser-react.svg)
 ![Known Vulnerabilities](https://snyk.io/test/github/tomgreener/browser-react/badge.svg?targetFile=package.json)
 [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/issues/)
