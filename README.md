@@ -5,7 +5,7 @@ _Need SSR of your React application?_ Check out [isomorphic-react](https://githu
 
 ![Dependencies up to date](https://david-dm.org/tomgreener/browser-react.svg)
 ![Known Vulnerabilities](https://snyk.io/test/github/tomgreener/browser-react/badge.svg?targetFile=package.json)
-[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/issues/)
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/tomgreener/browser-react/issues/)
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
 ## Quick Overview
